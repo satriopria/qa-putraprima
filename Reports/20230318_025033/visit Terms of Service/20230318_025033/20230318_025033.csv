@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+visit Terms of Service,Chrome 111.0.0.0,,,2023-03-18 02:50:40,2023-03-18 02:50:47,7.031s,FAILED
+,,,,,,,
+Test Cases/visit other page/visit terms of service,Chrome 111.0.0.0,,,2023-03-18 02:50:40,2023-03-18 02:50:47,6.726s,FAILED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-18 02:50:41,2023-03-18 02:50:43,2.472s,PASSED
+"navigateToUrl(""https://qa.putraprima.id/"")",Chrome 111.0.0.0,,,2023-03-18 02:50:43,2023-03-18 02:50:46,2.638s,PASSED
+"click(findTestObject(""a_Terms Of Service""))",Chrome 111.0.0.0,,,2023-03-18 02:50:46,2023-03-18 02:50:46,0.596s,PASSED
+"verifyElementNotVisible(findTestObject(""h5_Kalkulator Faktorial""))",Chrome 111.0.0.0,,,2023-03-18 02:50:46,2023-03-18 02:50:47,0.663s,FAILED

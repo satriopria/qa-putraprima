@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+faktorial - result check,Chrome 111.0.0.0,,,2023-03-18 02:49:44,2023-03-18 02:50:10,25.893s,FAILED
+,,,,,,,
+Test Cases/factorial feature/result - positive value,Chrome 111.0.0.0,,,2023-03-18 02:49:44,2023-03-18 02:49:54,9.656s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-18 02:49:45,2023-03-18 02:49:48,3.387s,PASSED
+"navigateToUrl(""https://qa.putraprima.id/"")",Chrome 111.0.0.0,,,2023-03-18 02:49:48,2023-03-18 02:49:51,2.996s,PASSED
+"setText(findTestObject(""Object Repository/input_Kalkulator Faktorial_input""), ""10"")",Chrome 111.0.0.0,,,2023-03-18 02:49:51,2023-03-18 02:49:52,0.897s,PASSED
+"click(findTestObject(""Object Repository/button_Hitung""))",Chrome 111.0.0.0,,,2023-03-18 02:49:52,2023-03-18 02:49:53,0.449s,PASSED
+"verifyElementText(findTestObject(""Object Repository/result""), ""Faktorial dari 10 adalah: 3628800"")",Chrome 111.0.0.0,,,2023-03-18 02:49:53,2023-03-18 02:49:53,0.809s,PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-18 02:49:53,2023-03-18 02:49:54,0.711s,PASSED
+,,,,,,,
+Test Cases/factorial feature/result - negative value,Chrome 111.0.0.0,,,2023-03-18 02:49:54,2023-03-18 02:50:02,7.519s,FAILED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-18 02:49:54,2023-03-18 02:49:56,1.357s,PASSED
+"navigateToUrl(""https://qa.putraprima.id/"")",Chrome 111.0.0.0,,,2023-03-18 02:49:56,2023-03-18 02:49:59,3.409s,PASSED
+"setText(findTestObject(""Object Repository/input_Kalkulator Faktorial_input""), ""-3"")",Chrome 111.0.0.0,,,2023-03-18 02:49:59,2023-03-18 02:50:00,0.843s,PASSED
+"click(findTestObject(""Object Repository/button_Hitung""))",Chrome 111.0.0.0,,,2023-03-18 02:50:00,2023-03-18 02:50:00,0.437s,PASSED
+"verifyElementText(findTestObject(""Object Repository/result""), ""Faktorial dari -3 adalah: ∞"")",Chrome 111.0.0.0,,,2023-03-18 02:50:00,2023-03-18 02:50:02,1.123s,FAILED
+,,,,,,,
+Test Cases/factorial feature/result - value 0,Chrome 111.0.0.0,,,2023-03-18 02:50:02,2023-03-18 02:50:10,8.324s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-18 02:50:02,2023-03-18 02:50:04,2.153s,PASSED
+"navigateToUrl(""https://qa.putraprima.id/"")",Chrome 111.0.0.0,,,2023-03-18 02:50:04,2023-03-18 02:50:07,3.122s,PASSED
+"setText(findTestObject(""Object Repository/input_Kalkulator Faktorial_input""), ""0"")",Chrome 111.0.0.0,,,2023-03-18 02:50:07,2023-03-18 02:50:08,0.798s,PASSED
+"click(findTestObject(""Object Repository/button_Hitung""))",Chrome 111.0.0.0,,,2023-03-18 02:50:08,2023-03-18 02:50:08,0.389s,PASSED
+"verifyElementText(findTestObject(""Object Repository/result""), ""Faktorial dari 0 adalah: 1"")",Chrome 111.0.0.0,,,2023-03-18 02:50:08,2023-03-18 02:50:09,0.790s,PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-18 02:50:09,2023-03-18 02:50:10,0.723s,PASSED
